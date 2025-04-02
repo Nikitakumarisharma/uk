@@ -1,0 +1,156 @@
+//Footer Section 
+.pr2-footer {
+    padding: 120px 0 0 0;
+}
+
+.pr2-footer-widget {
+    @include medium-screen {
+        margin-bottom: 30px;
+    }
+    h4 {
+        color: $white-color;
+        margin-bottom: 25px;
+    }
+    .pr2-pera-txt {
+        margin-bottom: 20px;
+        p {
+            color: $white-color;
+        }
+    }
+    .pr2-ft-socials {
+        a {
+            width: 40px; 
+            height: 40px; 
+            text-align: center;
+            line-height: 40px;
+            color: $white-color; 
+            background-color: #16284e;
+            display: inline-block; 
+            font-size: 18px;
+            border-radius: 50%;
+            transition: $transition;
+            position: relative; 
+            z-index: 1;
+            &::after {
+                content: ''; 
+                width: 40px; 
+                height: 40px; 
+                border-radius: 50%; 
+                position: absolute; 
+                top: 0; 
+                left: 0; 
+                background-image: linear-gradient( 180deg, rgb(116,165,255) 0%, rgb(58,128,254) 54%, rgb(0,90,253) 100%);
+                z-index: -1;
+                opacity: 0; 
+                transition: $transition;
+            }
+            &:hover {
+                &::after {
+                    opacity: 1;
+                }
+            }
+            + a {
+                margin-left: 8px;
+            }
+        }
+    }
+    .pr2-ft-links {
+        ul {
+            li {
+                + li {
+                    margin-top: 10px;
+                }
+                a {
+                    color: $white-color;
+                    text-transform: capitalize;
+                    margin-left: 15px;
+                    position: relative; 
+                    display: block;
+                    transition: $transition; 
+                    &:hover {
+                        color: $primary-color;
+                    }
+                    &::before {
+                        content: '\f105'; 
+                        font-family: 'Font Awesome 5 Free';
+                        font-weight: 900;
+                        position: absolute; 
+                        left: -15px;
+                        top: 50%; 
+                        transform: translateY(-50%);
+
+                    }
+                }
+            }
+        }
+    }
+    .pr2-ft-lists {
+        li {
+            color: $white-color;
+            span {
+                margin-right: 6px;
+            }
+            + li {
+                margin-top: 10px;
+            }
+        }
+    }
+    .pr2-sb-form {
+        form {
+            width: 100%; 
+            position: relative;
+            input[type="email"] {
+                width: 100%; 
+                padding: 8px 12px;
+                border-radius: 3px;
+                border: 0;
+            }
+            .submit-btn {
+                width: 40px; 
+                height: 40px; 
+                background-image: linear-gradient( 180deg, rgb(116,165,255) 0%, rgb(58,128,254) 54%, rgb(0,90,253) 100%);
+                color: $white-color; 
+                text-align: center; 
+                line-height: 40px; 
+                border: none; 
+                position: absolute; 
+                top: 50%; 
+                right: 0px;
+                transform: translateY(-50%);
+                border-radius: 3px;
+                transition: $transition;
+                z-index: 9;
+                &::after {
+                    content: '';
+                    position: absolute; 
+                    top: 0; 
+                    left: 0; 
+                    width: 100%; 
+                    height: 100%; 
+                    border-radius: 3px; 
+                    background-image: linear-gradient( 180deg, rgb(0,90,253) 0%, rgb(58,128,254) 54%, rgb(116,165,255) 100%);
+                    z-index: -1;
+                    transition: $transition; 
+                    opacity: 0; 
+                }
+                &:hover {
+                    &::after {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+.pr2-copyright {
+    margin-top: 60px;
+    padding: 15px 0; 
+    text-align: center;
+    background-image: linear-gradient( 180deg, rgb(116,165,255) 0%, rgb(58,128,254) 54%, rgb(0,90,253) 100%);
+    @include medium-screen {
+        margin-top: 30px;
+    }
+    p {
+        color: $white-color; 
+    }
+}

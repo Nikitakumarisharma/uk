@@ -1,0 +1,60 @@
+/*-------------------------------------------------------------
+Template Name: Prysm
+Template URL: 
+Author Name: Themexriver
+Author URL: https://themeforest.net/user/themexriver/portfolio
+Version: 1.0
+Description: 
+Tags: prysm
+-------------------------------------------------------------*/ 
+
+/*------------------------------------------------------------- 
+TABLE OF CONTENTS: 
+---------------------------------------------------------------
+>> Variables
+>> Mixin
+>> Preloader
+--------------------------------------------------------------*/
+
+//Variables 
+@import 'theme/variable';
+
+//Mixin 
+@import 'theme/mixin'; 
+
+//Predefine 
+@import 'theme/predefine';
+
+//Preloader 
+@import 'theme/preloader';
+
+//Theme
+@import 'theme/theme';
+
+//Header 
+@import 'layout/header';
+
+//Process
+@import 'layout/process';
+
+//Service 
+@import 'layout/services';
+
+//Achivements 
+@import 'layout/achivements';
+
+//Appoinment 
+@import 'layout/appoinment';
+
+//Case Study
+@import 'layout/case-study';
+
+//Testimonail 
+@import 'layout/testimonial';
+
+//Blog 
+@import 'layout/blog';
+
+//Footer 
+@import 'layout/footer';
+

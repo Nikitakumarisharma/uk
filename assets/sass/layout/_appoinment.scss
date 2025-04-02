@@ -1,0 +1,35 @@
+//Appoinment Section 
+.pr2-appoinment-section {
+    padding: 80px 0;
+    overflow: visible;
+    @include screen-1440 {
+        overflow: hidden;
+    }
+    .pr2-title-area {
+        margin-bottom: 40px;
+        .pr2-subtitle {
+            color: $primary-color;
+        }
+        h2 {
+            color: $white-color;
+        }
+        .pr2-pera-txt {
+            margin-top: 20px;
+        }
+        p {
+            color: $white-color;
+        }
+    }
+    .pr2-app-right {
+        position: relative;
+        height: 100%;
+        img {
+            width: inherit;
+            position: absolute;
+            bottom: -80px;
+            @include medium-screen {
+                display: none;
+            }
+        }
+    }
+}

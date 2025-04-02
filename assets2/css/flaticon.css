@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?0130e90ef89e8a3872bc13a2f43e088c") format("truetype"),
+url("../fonts/flaticon.woff?0130e90ef89e8a3872bc13a2f43e088c") format("woff"),
+url("../fonts/flaticon.woff2?0130e90ef89e8a3872bc13a2f43e088c") format("woff2"),
+url("../fonts/flaticon.eot?0130e90ef89e8a3872bc13a2f43e088c#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?0130e90ef89e8a3872bc13a2f43e088c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-right-arrow:before {
+    content: "\f101";
+    font-weight: 700 !important;
+}
+.flaticon-next:before {
+    content: "\f102";
+}
+.flaticon-next-1:before {
+    content: "\f103";
+}
+.flaticon-phone-call:before {
+    content: "\f104";
+}
+.flaticon-pin:before {
+    content: "\f105";
+}
+.flaticon-email:before {
+    content: "\f106";
+}
+.flaticon-phone-call-1:before {
+    content: "\f107";
+}
+.flaticon-link:before {
+    content: "\f108";
+}
+.flaticon-quotes:before {
+    content: "\f109";
+}
+.flaticon-play-button:before {
+    content: "\f10a";
+}
+.flaticon-growth-chart:before {
+    content: "\f10b";
+}
+.flaticon-market:before {
+    content: "\f10c";
+}
+.flaticon-analytics:before {
+    content: "\f10d";
+}
+.flaticon-high-value:before {
+    content: "\f10e";
+}
+.flaticon-objectives:before {
+    content: "\f10f";
+}
+.flaticon-brainstorming:before {
+    content: "\f110";
+}
+.flaticon-remuneration:before {
+    content: "\f111";
+}
+.flaticon-business-report:before {
+    content: "\f112";
+}
+.flaticon-strategy:before {
+    content: "\f113";
+}
+.flaticon-segmentation:before {
+    content: "\f114";
+}
+.flaticon-data-analysis:before {
+    content: "\f115";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f116";
+}
+.flaticon-pin-1:before {
+    content: "\f117";
+}
+.flaticon-email-1:before {
+    content: "\f118";
+}
+.flaticon-pinterest:before {
+    content: "\f119";
+}
+.flaticon-business-plan:before {
+    content: "\f11a";
+}
+.flaticon-decision:before {
+    content: "\f11b";
+}
+.flaticon-analysis:before {
+    content: "\f11c";
+}
+.flaticon-left-quote:before {
+    content: "\f11d";
+}

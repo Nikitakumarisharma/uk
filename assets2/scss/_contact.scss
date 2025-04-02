@@ -1,0 +1,271 @@
+.pr-contact-section {
+	padding: 80px 0px 110px;
+	background-color: #f3f4f6;
+	.pr-contact-bg {
+		top: 30px;
+		right: 0;
+		opacity: .3;
+	}
+}
+.pr-contact-map-info {
+	width: 690px;
+}
+%btn-style {
+	color: #fff;
+	border: none;
+	width: 215px;
+	height: 55px;
+	font-size: 15px;
+	margin-top: 20px;
+	font-weight: 700;
+	border-radius: 30px;
+	font-family: $heading;
+	display: inline-block;
+	background-size: 200%, 1px;
+	transition: all 200ms linear 0ms;
+	background-image: linear-gradient(90deg, #1ec5fa 0%, #0d47d5 50%, #1ec5fa);
+	position: relative;
+	z-index: 1;
+	transition: 0.3s;
+	&::after {
+		content: ''; 
+		position: absolute; 
+		bottom: 0; 
+		left: 0;  
+		width: 215px; 
+		height: 55px;
+		background-image: linear-gradient( to left, rgb(0,92,230) 0%, rgb(2,204,255) 100%);
+		border-radius: 50px;
+		z-index: -1;
+		box-shadow: 0px 3px 1px #03eaff;
+		transition: 0.3s;
+	}
+	&::before {
+		content: ''; 
+		position: absolute; 
+		bottom: 0; 
+		left: 0;  
+		width: 215px; 
+		height: 55px;
+		border-radius: 50px;
+		z-index: -1;
+		box-shadow: 0px 3px 1px #03eaff;
+		transition: 0.3s;
+	}
+	&:hover {
+		box-shadow: -0.558px 7.981px 8px 0px rgba(41, 182, 255, 0.54),inset 0px 3px 0px 0px rgba(3, 234, 255, 0.004);
+		background-position: 120%;
+		&::after {
+			opacity: 0;
+		}
+		i {
+			transform: translateX(5px);
+		}
+	}
+}
+#pr-map {
+	height: 365px;
+	margin-top: 60px;
+	border: 5px solid #fff;
+	border-right: 0;
+	box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.06);
+	img {
+		filter: grayscale(0);
+	}
+	.gm-style {
+		filter: grayscale(1);
+	}
+}
+.pr-contact-info {
+	padding-top: 25px;
+}
+.pr-contact-info-item {
+	margin-right: 50px;
+	position: relative;
+	&:after {
+		top: 20px;
+		right: -20px;
+		width: 1px;
+		content: '';
+		height: 50px;
+		position: absolute;
+		background-color: #dbdbdc;
+	}
+	h3 {
+		color: #161616;
+		font-size: 20px;
+		font-weight: 700;
+		padding-bottom: 5px;
+	}
+	p {
+		max-width: 220px;
+	}
+	&:last-child {
+		&:after {
+			display: none;
+		}
+	}
+}
+.pr-contact-form {
+	width: 460px;
+	padding: 45px 70px;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.1);
+	&:after {
+		left: 0;
+		right: 0;
+		content: '';
+		height: 25px;
+		width: 80%;
+		bottom: -25px;
+		margin: 0 auto;
+		position: absolute;
+		border-radius: 5px;
+		background-color: #f9f9f9;
+		box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.1);
+	}
+	.pr-section-title {
+		h2 {
+			font-size: 24px;
+			position: relative;
+			padding-bottom: 10px;
+			display: inline-block;
+			padding-right: 40px;
+			&:after {
+				right: 0;
+				top: 23px;
+				height: 3px;
+				width: 30px;
+				content: '';
+				position: absolute;
+				background-color: $base-color;
+			}
+		}
+		p {
+			font-size: 17px;
+		}
+	}
+}
+.pr-contact-form-wrap {
+	margin-top: 25px;
+	.input-info {
+		padding: 7px 20px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		border: 1px solid #eeeeee;
+		label {
+			font-size: 15px;
+		}
+		input {
+			border:  none;
+			color: #0e0d0f;
+			font-size: 17px;
+			font-weight: 700;
+			font-family: $heading;
+			&::placeholder {
+				color: #0e0d0f;
+				font-size: 17px;
+				font-weight: 700;
+				font-family: $heading;
+			}
+		}
+		i {
+			top: 22px;
+			right: 20px;
+			color: #c5c5c5;
+			position: absolute;
+		}
+	}
+	button {
+		@extend%btn-style;
+		i {
+			margin-left: 3px;
+			transition: 0.3s;
+		}
+	}
+	p {
+		font-size: 14px;
+		margin-top: 25px;
+		input {
+			margin-right: 12px;
+		}
+		a {
+			color: $base-color;
+			text-decoration: underline;
+		}
+	}
+}
+.pr-team-contact {
+	background-color: #fff;
+}
+.pr-contact-wrap-section {
+	padding: 100px 0px;
+	z-index: 1;
+}
+.cnt-map-bg {
+	left: 0;
+	right: 0;
+	z-index: -1;
+	text-align: center;
+}
+.pr-contact-page-content {
+	padding-top: 50px;
+}
+.pr-contact-img {
+	padding-left: 30px;
+}
+.pr-contact-cta-item-inner {
+	padding: 30px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	box-shadow: 0px 10px 35px 0px rgba(0, 27, 175, 0.1);
+	.pr-contact-cta-icon {
+		width: 60px;
+		height: 60px;
+		border-radius: 100%;
+		margin-right: 20px;
+		display: inline-block;
+		background-size: 200%, 1px;
+		background-image: linear-gradient(90deg, #1ec5fa 0%, #0d47d5 50%, #1ec5fa);
+		box-shadow: -0.558px 7.981px 8px 0px rgba(1, 181, 255, 0.27), inset 0px 3px 0px 0px rgba(3, 234, 255, 0.004);
+		i {
+			color: #fff;
+			line-height: 1;
+			font-size: 30px;
+		}
+	}
+	.pr-contact-cta-text {
+		h3 {
+			color: #000000;
+			font-size: 21px;
+			font-weight: 700;
+			padding-bottom: 5px;
+		}
+		h4 {
+			font-size: 18px;
+			color: rgb(102, 102, 102);
+		}
+	}
+}
+.contact-page-form-wrapper {
+	padding: 35px 0px 120px;
+	input,
+	textarea {
+		width: 100%;
+		height: 50px;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		padding-left: 20px;
+		border: 1px solid #e7e7e7;
+		background-color: #f3f3f3;
+	}
+	textarea {
+		height: 220px;
+		padding: 20px;
+	}
+	button {
+		@extend%btn-style;
+	}
+}

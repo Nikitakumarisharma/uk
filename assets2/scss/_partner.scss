@@ -1,0 +1,40 @@
+.pr-partner-section {
+	padding-top: 100px;
+	.pr-section-title {
+		max-width: 900px;
+		padding-bottom: 60px;
+		h2 {
+			color: #fff;
+		}
+		p {
+			margin: 0 auto;
+			color: #dedede;
+			max-width: 690px;
+		}
+	}
+}
+.pr-partner-logo {
+	ul {
+		border-top: 1px solid #454852;
+	}
+	li {
+		width: 25%;
+		height: 160px;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		img {
+			transition: 500ms all ease;
+			filter: grayscale(100%);
+		}
+		&:not(:last-child) {
+			border-right: 1px solid #454852;;
+		}
+		&:hover {
+			img {
+				transform: scale(1.1);
+				filter: grayscale(0);
+			}
+		}
+	}
+}

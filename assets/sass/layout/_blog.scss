@@ -1,0 +1,128 @@
+//blog section 
+.pr2-blog-section {
+    padding: 120px 0 70px 0;
+    .pr2-title-area {
+        @include medium-screen {
+            margin-bottom: 60px;
+        }
+        .pr2-subtitle {
+            color: $primary-color;
+        }
+    }
+}
+.pr2-blog-slider {
+    .slick-arrow {
+        position: absolute; 
+        top: -75px; 
+        right: 0;
+        width: 40px; 
+        height: 40px; 
+        background-color: transparent;
+        border: 2px solid $heading-color;
+        border-radius: 50%;
+        transition: $transition; 
+        color: $heading-color;
+        z-index: 2;
+        &:hover {
+            background-color: $primary-color;
+            color: $white-color;
+            border: 2px $primary-color;
+        }
+        @include medium-screen {
+            top: -20px;
+        }
+    }
+    .slick-prev {
+        right: 70px;
+        @include medium-screen {
+            right: 50px;
+        }
+    }
+    .slick-list {
+        margin: 0 -15px;
+        padding: 50px 0px;
+    }
+    .slick-slide {
+        margin: 0 15px;
+    }
+    .pr2-blog-single-item {
+        position: relative;
+        background-color: $white-color; 
+        box-shadow: 0px 15px 15px 0px rgba(122, 122, 122, 0.15);
+        transition: $transition;
+        &:hover {
+            box-shadow: 0px 15px 15px 0px rgba(122, 122, 122, 0.25);
+            .img-container {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .date {
+            position: absolute; 
+            right: 0; 
+            top: 0; 
+            width: 70px; 
+            height: 90px;
+            background-image: url(../images/blog/ribbon.png);
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+            color: $white-color; 
+            text-align: center;
+            padding-top: 10px;
+            border-radius: 0 6px 0 0;
+            z-index: 99;
+            h5 {
+                margin-bottom: 0;
+            }
+        }
+        .img-container {
+            overflow: hidden;
+            border-radius: 6px;
+            img {
+                transition: $transition;
+            }
+        }
+        .pr2-blog-content {
+            padding: 20px;
+            .pr2-blog-meta {
+                margin-bottom: 10px;
+                span {
+                    color: $heading-color;
+                    text-transform: capitalize;
+                }
+            }
+            .pr2-blog-title {
+                margin-bottom: 10px;
+                h4 {
+                    transition: $transition; 
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+            .pr2-blog-readmore {
+                margin-top: 10px;
+                a {
+                    display: inline-block; 
+                    color: $heading-color; 
+                    font-family: $heading-font; 
+                    font-weight: 700; 
+                    text-transform: capitalize;
+                    transition: $transition; 
+                    i {
+                        transition: $transition; 
+                    }
+                    &:hover {
+                        color: $primary-color; 
+                        i {
+                            color: $primary-color;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

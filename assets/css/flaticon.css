@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?c22f439f1962599c7c798269e718d33c") format("truetype"),
+url("../fonts/flaticon.woff?c22f439f1962599c7c798269e718d33c") format("woff"),
+url("../fonts/flaticon.woff2?c22f439f1962599c7c798269e718d33c") format("woff2"),
+url("../fonts/flaticon.eot?c22f439f1962599c7c798269e718d33c#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?c22f439f1962599c7c798269e718d33c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-right-arrow:before {
+    content: "\f101";
+}
+.flaticon-next:before {
+    content: "\f102";
+}
+.flaticon-next-1:before {
+    content: "\f103";
+}
+.flaticon-phone-call:before {
+    content: "\f104";
+}
+.flaticon-pin:before {
+    content: "\f105";
+}
+.flaticon-email:before {
+    content: "\f106";
+}
+.flaticon-phone-call-1:before {
+    content: "\f107";
+}
+.flaticon-link:before {
+    content: "\f108";
+}
+.flaticon-quotes:before {
+    content: "\f109";
+}
+.flaticon-play-button:before {
+    content: "\f10a";
+}
+.flaticon-growth-chart:before {
+    content: "\f10b";
+}
+.flaticon-market:before {
+    content: "\f10c";
+}
+.flaticon-analytics:before {
+    content: "\f10d";
+}
+.flaticon-high-value:before {
+    content: "\f10e";
+}
+.flaticon-objectives:before {
+    content: "\f10f";
+}
+.flaticon-brainstorming:before {
+    content: "\f110";
+}
+.flaticon-remuneration:before {
+    content: "\f111";
+}
+.flaticon-business-report:before {
+    content: "\f112";
+}
+.flaticon-strategy:before {
+    content: "\f113";
+}
+.flaticon-segmentation:before {
+    content: "\f114";
+}
+.flaticon-data-analysis:before {
+    content: "\f115";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f116";
+}
+.flaticon-pin-1:before {
+    content: "\f117";
+}
+.flaticon-email-1:before {
+    content: "\f118";
+}
+.flaticon-pinterest:before {
+    content: "\f119";
+}
+.flaticon-business-plan:before {
+    content: "\f11a";
+}
+.flaticon-decision:before {
+    content: "\f11b";
+}
+.flaticon-analysis:before {
+    content: "\f11c";
+}
+.flaticon-left-quote:before {
+    content: "\f11d";
+}
+.flaticon-productivity:before {
+    content: "\f11e";
+}
+.flaticon-mission-accomplished:before {
+    content: "\f11f";
+}
+.flaticon-circular-chart:before {
+    content: "\f120";
+}
+.flaticon-achievement:before {
+    content: "\f121";
+}
+.flaticon-web:before {
+    content: "\f122";
+}
+.flaticon-sketch:before {
+    content: "\f123";
+}
+.flaticon-swatches:before {
+    content: "\f124";
+}
+.flaticon-research:before {
+    content: "\f125";
+}
+.flaticon-research-1:before {
+    content: "\f126";
+}
+.flaticon-code:before {
+    content: "\f127";
+}
+.flaticon-add:before {
+    content: "\f128";
+}
+.flaticon-user:before {
+    content: "\f129";
+}
+.flaticon-more:before {
+    content: "\f12a";
+}
+.flaticon-facebook:before {
+    content: "\f12b";
+}
+.flaticon-twitter:before {
+    content: "\f12c";
+}
+.flaticon-linkedin:before {
+    content: "\f12d";
+}
+.flaticon-checked:before {
+    content: "\f12e";
+}
+.flaticon-phone-call-2:before {
+    content: "\f12f";
+}
+.flaticon-idea:before {
+    content: "\f130";
+}
+.flaticon-improve:before {
+    content: "\f131";
+}
+.flaticon-tools:before {
+    content: "\f132";
+}
+.flaticon-studying:before {
+    content: "\f133";
+}
+.flaticon-market-research:before {
+    content: "\f134";
+}
+.flaticon-idea-1:before {
+    content: "\f135";
+}
+.flaticon-24-hours:before {
+    content: "\f136";
+}
+.flaticon-consulting:before {
+    content: "\f137";
+}
+.flaticon-account:before {
+    content: "\f138";
+}
+.flaticon-calendar:before {
+    content: "\f139";
+}
+.flaticon-stats:before {
+    content: "\f13a";
+}
+.flaticon-offer:before {
+    content: "\f13b";
+}

@@ -1,0 +1,147 @@
+//Process Section 
+.pr2-process {
+    padding: 120px 0;
+}
+.pr2-process-content {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    .pr2-circle-shape-1 {
+        width: 150px; 
+        height: 150px;
+        display: inline-block;
+        position: absolute; 
+        bottom: -50px;
+        right: -80px;
+        z-index: -1;
+    }
+    .pr2-process-left {
+        display: none;
+    }
+}
+.pr2-process-column {
+    overflow: hidden; 
+    background-color: $white-color;
+    padding: 60px 30px 30px 30px;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.05);
+    transition: $transition;
+    margin-bottom: 30px;
+    border: 2px solid transparent;
+    &:hover {
+        border: 2px solid $primary-color;
+        box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.15);
+    }
+    &::before {
+        content: ''; 
+        position: absolute; 
+        top: -30px; 
+        right: -50px; 
+        z-index: 1;
+        width: 100px; 
+        height: 100px;
+        border-radius: 50%;
+        background-color: $light-shape;
+    }
+    &::after {
+        content: ''; 
+        position: absolute; 
+        top: -55px; 
+        right: -11px; 
+        z-index: 2;
+        width: 100px; 
+        height: 100px;
+        border-radius: 50%;
+        background-color: $deep-shape;
+    }
+    span {
+        position: absolute; 
+        top: 10px; 
+        right: 30px;
+        font-family: $heading-font; 
+        font-weight: 700;
+        font-size: 24px;
+        color: $white-color;
+        z-index: 3;
+    }
+    .pr2-headline {
+        margin-bottom: 20px;
+    }
+    .pr2-pera-txt {
+        margin-bottom: 20px;
+    }
+    a {
+        font-family: $heading-font; 
+        font-weight: 600; 
+        font-size: 15px;
+        color: $heading-color;
+        text-transform: capitalize;
+        transition: $transition; 
+        &:hover {
+            color: $primary-color;
+        }
+    }
+
+}
+
+.pr2-process-bottom {
+    margin-top: 80px;
+    .pr2-subtitle {
+        color: $primary-color;
+    }
+}
+.pr2-process-lists {
+    .single-list {
+        display: flex;
+        align-items: center;
+        + .single-list {
+            margin-top: 30px;
+        }
+        .icon-left {
+            margin-right: 20px;
+            .icon-container {
+                width: 100px; 
+                height: 100px;
+                border-radius: 6px;
+                background-color: #dce8fb;
+                text-align: center;
+                position: relative;
+                i {
+                    font-size: 60px;
+                    line-height: 0; 
+                    display: inline-block;
+                    position: absolute; 
+                    top: 50%; 
+                    left: 50%; 
+                    transform: translate(-50%, -50%);
+                    background-image: linear-gradient(to bottom, #74a5ff, #005afd);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+        .txt-content {
+            h4 {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.pr2-process-right {
+    @include medium-screen {
+        margin-top: 60px;
+    }
+    .img-container {
+        &:first-child {
+            margin-bottom: 30px;
+        }
+    }
+    .img-container.img-right {
+        @include small-screen {
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+    }
+}
