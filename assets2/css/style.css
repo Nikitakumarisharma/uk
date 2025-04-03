@@ -2293,8 +2293,8 @@ rs-layer.slider-btn {
     transition: 500ms all ease;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); } */
-  .pr-partner-logo li:not(:last-child) {
-    border-right: 1px solid #454852; }
+  /* .pr-partner-logo li:not(:last-child) {
+    border-right: 1px solid #454852; } */
   .pr-partner-logo li:hover img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
