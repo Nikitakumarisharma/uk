@@ -656,7 +656,7 @@ select:visited {
   position: relative; }
   .header-syle-one .dropdown:after {
     top: 1px;
-    color: #fff;
+    color: #572727;
     right: -15px;
     content: '+';
     font-size: 16px;

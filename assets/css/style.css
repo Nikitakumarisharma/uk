@@ -677,12 +677,12 @@ select:visited {
     text-align: center;
     line-height: 35px;
     background: none;
-    color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(135, 66, 66, 0.5);
     border-radius: 0px;
     padding: 0px;
-    width: 36px;
-    height: 35px; }
+    width: 30px;
+    height: 30px; }
 
 .str-mobile_menu .str-mobile_menu_close {
   color: #ffffff;
